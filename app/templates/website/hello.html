@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block base_content %}
+    <div class="row hidden-print" style="margin-bottom: 20px">
+        <div class="col-sm-5">
+            <div class="btn-group" role="group">
+                <h1>Hello from Django containerized app!</h1>
+            </div>
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+{% endblock %}
